@@ -29,3 +29,22 @@ todo.insert("Pay Bill", at: 2)
 //removing items
 todo.remove(at: 3)
 
+
+
+
+//DICTIONARIES
+var airportCodes = ["LGA": "La Guardia", "LHR": "Heathrow", "CDG": "Charles De Gaulle", "CCU": "Kolkata", "HKG": "Hong Kong Intl", "DXB" : "Dubai Intl"]
+
+airportCodes["SYD"] = "Sydney International"
+
+
+airportCodes.updateValue("Dublin Airport", forKey: "DUB")
+
+airportCodes.removeValue(forKey: "DXB")
+
+let airportName = airportCodes["LGA"]
+type(of: airportName)
+
+let orlandoAirport = airportCodes["MCO"]
+type(of: orlandoAirport)
+
