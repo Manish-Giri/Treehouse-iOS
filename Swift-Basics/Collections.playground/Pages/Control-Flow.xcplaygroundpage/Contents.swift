@@ -24,3 +24,10 @@ for item in todo {
 for number in 1...10 {
     print("\(number) times 5 = \(number * 5)")
 }
+
+//loops
+var x = 0
+while x < 20 {
+    print(x)
+    x += 1
+}
