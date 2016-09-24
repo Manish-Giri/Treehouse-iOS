@@ -19,3 +19,8 @@ var todo = ["Finish collections course",
 for item in todo {
     print(item)
 }
+
+//range operators
+for number in 1...10 {
+    print("\(number) times 5 = \(number * 5)")
+}
