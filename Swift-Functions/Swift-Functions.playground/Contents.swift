@@ -48,4 +48,31 @@ func carpetCostCalculator(length: Int, width: Int, carpetColor: String = "Tan") 
 //carpetCostCalculator(length: 10, width: 20, carpetColor: "Red")
 carpetCostCalculator(length: 5, width: 6)
 
+//function scope
+func countDownAndUp( a: Int) {
+    var a = a
+    var b = a
+    
+    while(b >= 0) {
+        b -= 1
+        a += 1
+        print("a: \(a)")
+        print("b: \(b)")
+        
+    }
+}
 
+var a = 20
+countDownAndUp(a: a)
+a
+
+//tuples
+func testTuples(num: Int) -> (Int, Int) {
+    let n = num + 1
+    return (num, n)
+    
+}
+
+let resultTuples = testTuples(num: 5)
+resultTuples.0
+resultTuples.1
