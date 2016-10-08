@@ -24,3 +24,22 @@ self.location = Location(latitude: latitude, longitude: longitude)
 }
 
 let someBusiness = Business(name: "Wendys", latitude: 45.5, longitude: 65.3)
+
+
+class Vehicle {
+    var numberOfDoors: Int
+    var numberOfWheels: Int
+    
+    init(withDoors doors: Int, andWheels wheels: Int) {
+        self.numberOfDoors = doors
+        self.numberOfWheels = wheels
+    }
+}
+
+// Enter your code below
+class Car: Vehicle {
+    var numberOfSeats: Int = 4
+}
+
+let someCar = Car(withDoors: 4, andWheels: 4)
+
