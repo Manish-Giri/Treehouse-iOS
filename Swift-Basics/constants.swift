@@ -1,1 +1,0 @@
-let favDessert = "Ice-Cream"
