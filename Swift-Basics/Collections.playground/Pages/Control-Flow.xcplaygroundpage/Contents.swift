@@ -15,6 +15,7 @@ var todo = ["Finish collections course",
             "mow lawn"
     
 ]
+todo.append("Watch Prison Break")
 
 for item in todo {
     print(item)
