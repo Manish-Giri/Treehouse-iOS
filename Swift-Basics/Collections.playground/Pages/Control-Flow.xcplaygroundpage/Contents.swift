@@ -17,6 +17,14 @@ var todo = ["Finish collections course",
 ]
 todo.append("Watch Prison Break")
 
+//insert at
+todo.insert("Watch TV", at: 2)
+
+// remove 
+todo.remove(at: 2)
+
+todo.count
+
 for item in todo {
     print(item)
 }
