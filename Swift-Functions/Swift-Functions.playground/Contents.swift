@@ -97,13 +97,13 @@ let result = getRemainder(value: 10, divisor: 3)
 var testArray: [Int] = [1,2,3,4,5]
 
 func arrayModifier(arr: [Int]) -> [Int] {
-    /*
+    
     var firstArr = arr
     firstArr.append(10)
     print("FirstArr = \(firstArr)")
-    */
+ 
     
-    arr.append(10)
+    //arr.append(10)
     
     var secondArr = arr
     return secondArr
@@ -112,4 +112,16 @@ func arrayModifier(arr: [Int]) -> [Int] {
 var resultArr = arrayModifier(arr: testArray)
 testArray
 
+
+// functions challenge
+
+// Enter your code below
+func coordinates(for location: String) -> (Double, Double) {
+    switch location {
+    case "Eiffel Tower": return (48.8582, 2.2945)
+    case "Great Pyramid": return (29.9792, 31.1344 )
+    case "Sydney Opera House": return (33.8587, 151.2140)
+    default: return (0,0)
+    }
+}
 
