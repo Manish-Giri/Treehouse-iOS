@@ -4,6 +4,8 @@ import UIKit
 
 var str = "Hello, playground"
 
+/*
+
 func calculateArea(length: Int, width: Int) -> Int {
     let area = length * width;
     //print(area)
@@ -77,6 +79,7 @@ let resultTuples = testTuples(num: 5)
 resultTuples.0
 resultTuples.1
 
+*/
 
 // --------------------------------
         // NEW CODE
@@ -88,3 +91,25 @@ func getRemainder(value a: Int, divisor b: Int) -> Int {
 }
 
 let result = getRemainder(value: 10, divisor: 3)
+
+// scope
+
+var testArray: [Int] = [1,2,3,4,5]
+
+func arrayModifier(arr: [Int]) -> [Int] {
+    /*
+    var firstArr = arr
+    firstArr.append(10)
+    print("FirstArr = \(firstArr)")
+    */
+    
+    arr.append(10)
+    
+    var secondArr = arr
+    return secondArr
+}
+
+var resultArr = arrayModifier(arr: testArray)
+testArray
+
+
