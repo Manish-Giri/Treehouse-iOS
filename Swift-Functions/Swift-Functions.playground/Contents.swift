@@ -76,3 +76,15 @@ func testTuples(num: Int) -> (Int, Int) {
 let resultTuples = testTuples(num: 5)
 resultTuples.0
 resultTuples.1
+
+
+// --------------------------------
+        // NEW CODE
+// --------------------------------
+
+// Enter your code below
+func getRemainder(value a: Int, divisor b: Int) -> Int {
+    return a % b
+}
+
+let result = getRemainder(value: 10, divisor: 3)
